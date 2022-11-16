@@ -1,8 +1,11 @@
-import './App.css';
+import "./App.css";
+import AppRoutes from "./routes";
 
 function App() {
   return (
-   <div className="flex flex-col bg-slate-300 h-full items-center justify-center text-4xl">Timer</div>
+    <div className="flex h-full flex-col items-center justify-center bg-slate-300 text-4xl">
+      <AppRoutes />
+    </div>
   );
 }
 
